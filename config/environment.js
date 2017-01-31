@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'noisy-run-loop',
     environment: environment,
-    rootURL: '/',
+    // rootURL: '/Users/kchu/vagrant/dev/noisy-run-loop/dist/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -20,6 +20,9 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
+
+	  // ENV.locationType = 'none';
+
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;

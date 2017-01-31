@@ -1,0 +1,2 @@
+build:
+	ember build
